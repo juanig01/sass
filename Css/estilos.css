@@ -1,5 +1,6 @@
 .encabezado {
-  grid-area: "header"; }
+  grid-area: "header";
+}
 
 .ul__encabezado {
   color: white;
@@ -8,26 +9,33 @@
   padding: 0;
   overflow: hidden;
   background-color: #D9C2AD;
-  text-align: center; }
+  text-align: center;
+}
 
 .li__encabezado {
-  float: left; }
+  float: left;
+}
 
 a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none; }
-  a :hover {
-    background-color: #590202; }
+  text-decoration: none;
+}
+
+a :hover {
+  background-color: #590202;
+}
 
 .img {
   max-width: 100%;
-  max-height: 100%; }
+  max-height: 100%;
+}
 
 .main {
-  grid-area: "main"; }
+  grid-area: "main";
+}
 
 .boton__menu {
   width: 500px;
@@ -35,7 +43,8 @@ a {
   margin-left: 700px;
   border: none;
   padding: 15px 32px;
-  display: inline-block; }
+  display: inline-block;
+}
 
 a:link {
   background-color: #F2B705;
@@ -45,7 +54,8 @@ a:link {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  background: #9bc951; }
+  background: #9bc951;
+}
 
 a:visited {
   background-color: #F2B705;
@@ -55,97 +65,120 @@ a:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  background: #48af3e; }
+  background: #48af3e;
+}
 
-/*mapa de la seccion delivery*/
 .mapa {
   color: aliceblue;
   font-size: 50px;
   animation-duration: 3s;
-  animation-name: slidein; }
+  animation-name: slidein;
+}
 
 @keyframes slidein {
   from {
     margin-left: 40%;
-    width: 300%; }
+    width: 300%;
+  }
+
   to {
-    width: 100%; } }
+    width: 100%;
+  }
+}
 
 .imagen__nosotros {
   width: 700px;
-  height: 550px; }
+  height: 550px;
+}
 
 #pie {
   grid-area: "footer";
   width: 100%;
   height: 2%;
-  margin-top: 6%; }
+  margin-top: 6%;
+}
 
 .facebook {
-  margin-left: 45%; }
+  margin-left: 45%;
+}
 
 .instagram {
-  margin-left: 5%; }
+  margin-left: 5%;
+}
 
 h1 {
   border: black 5px;
   color: #590202;
   font-size: 150px;
   font-family: 'Oswald', sans-serif;
-  text-align: center; }
+  text-align: center;
+}
 
 .titulo {
   margin-left: 200px;
-  margin-right: 200px; }
+  margin-right: 200px;
+}
 
 h2 {
   font-family: 'Oswald', sans-serif;
-  color: #ffffff; }
+  color: #ffffff;
+}
 
 h3 {
   font-family: 'Oswald', sans-serif;
   font-size: 50px;
-  color: white; }
+  color: white;
+}
 
 h4 {
   font-size: 30px;
-  font-family: 'Oswald', sans-serif; }
+  font-family: 'Oswald', sans-serif;
+}
 
 .titulo__contacto {
   font-family: 'Oswald', sans-serif;
-  color: white; }
+  color: white;
+}
 
 .fondo__principal {
   background-image: url(../Imagenes/Portada.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 .fondo__menu {
   font-size: 20px;
   background: #f28705;
-  background: linear-gradient(90deg, #f28705 1%, #d93d04 52%, #f28705 98%); }
+  background: linear-gradient(90deg, #f28705 1%, #d93d04 52%, #f28705 98%);
+}
 
 .fondo__contacto {
   font-size: 20px;
   background: #f28705;
-  background: linear-gradient(90deg, #f28705 1%, #d93d04 52%, #f28705 98%); }
+  background: linear-gradient(90deg, #f28705 1%, #d93d04 52%, #f28705 98%);
+}
 
 .fondo__delivery {
   font-size: 20px;
   background: #f28705;
-  background: linear-gradient(90deg, #f28705 1%, #d93d04 52%, #f28705 98%); }
+  background: linear-gradient(90deg, #f28705 1%, #d93d04 52%, #f28705 98%);
+}
 
 .fondo__nosotros {
   font-size: 20px;
   background: #f28705;
-  background: linear-gradient(90deg, #f28705 1%, #d93d04 52%, #f28705 98%); }
+  background: linear-gradient(90deg, #f28705 1%, #d93d04 52%, #f28705 98%);
+}
 
 .grid {
   height: 100%;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "header" "main" "footer";
-  grid-template-rows: auto; }
+  grid-template-areas: "header"
+    "main"
+    "footer";
+  grid-template-rows: auto;
+}

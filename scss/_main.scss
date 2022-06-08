@@ -24,18 +24,9 @@ a:link {
 }
 
 a:visited {
-    background-color: #F2B705;
-    color: rgb(0, 0, 0);
-    border: 2px solid rgb(0, 0, 0);
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    @extend .a:link;
     background: #48af3e;
 }
-
-
-/*mapa de la seccion delivery*/
 
 .mapa {
 
@@ -54,7 +45,7 @@ a:visited {
     }
 
     to {
-        width: 100%;
+        width: $ancho;
     }
 }
 

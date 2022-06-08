@@ -1,16 +1,8 @@
+@import "grid";
 @import "header";
 @import "main";
 @import "footer";
 @import "titulos";
 @import "fondos";
-
-.grid {
-    height: 100%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: "header"
-        "main"
-        "footer";
-    grid-template-rows: auto;
-}
+@import "variables";
+@import "mixin";

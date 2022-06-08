@@ -1,0 +1,10 @@
+.grid {
+    height: 100%;
+    width: $ancho;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header"
+        "main"
+        "footer";
+    grid-template-rows: auto;
+}
